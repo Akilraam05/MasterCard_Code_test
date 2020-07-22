@@ -1,8 +1,22 @@
 # MasterCard_Code_test
 
+### How to run?
 
+Run the MastercardApplication class as a Java Application.
 
+Tomcat port number is 8081 given in application.properties
 
+### This application provides the below endpoints
+http://localhost:8081/connected
+
+http://localhost:8081/connected?origin=Boston&destination=Philadelphia
+Returns Yes because the path between the origin and destination is provided in connected_cities.txt file under resources folder
+
+### Testcases added to the application.
+testValidInterconnect
+testValidDirectConnect
+testValidSameCity
+testInvalidConnect
 
 ### Reference Documentation
 For further reference, please consider the following sections:
